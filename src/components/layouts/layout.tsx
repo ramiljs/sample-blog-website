@@ -7,7 +7,7 @@ import {
   wrapStyle,
   themeButtonStyle,
   langButtonStyle
-} from './style';
+} from './layout.style';
 import {
   Box,
   FormControl,
@@ -45,8 +45,12 @@ const Layout: FC = () => {
                   </MenuButton>
                   <MenuList minWidth='150px'>
                     <MenuOptionGroup defaultValue='rus' title='Lang' type='radio'>
-                      <MenuItemOption value='rus'>Rus</MenuItemOption>
-                      <MenuItemOption value='eng'>Eng</MenuItemOption>
+                      <MenuItemOption value='rus'>
+                        Rus
+                      </MenuItemOption>
+                      <MenuItemOption value='eng'>
+                        Eng
+                      </MenuItemOption>
                     </MenuOptionGroup>
                   </MenuList>
                 </Menu>
@@ -54,7 +58,9 @@ const Layout: FC = () => {
               <Box style={themeButtonStyle}>
                 <Tag variant='outline' colorScheme='teal' sx={{ padding: '6px' }}>
                   <FormControl display='flex' alignItems='center'>
-                    <FormLabel htmlFor='email-alerts' mb='0'>Light/Dark</FormLabel>
+                    <FormLabel htmlFor='email-alerts' mb='0'>
+                      Light/Dark
+                    </FormLabel>
                     <Switch colorScheme='teal' size='lg' />
                   </FormControl>
                 </Tag>
@@ -68,4 +74,4 @@ const Layout: FC = () => {
   )
 }
 
-export default Layout
+export default Layout;

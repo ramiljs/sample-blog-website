@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { ContactContainerStyle } from './style';
+import { ContactContainerStyle } from './contact.style';
 import { useToast, Stack, Input, Textarea, Button } from '@chakra-ui/react';
 
 const Contact: FC = () => {

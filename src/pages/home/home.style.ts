@@ -1,4 +1,4 @@
-import { CSSProperties } from "react"
+import { CSSProperties } from 'react';
 
 export const userInfoStyle: CSSProperties = {
   display: "flex",
@@ -8,6 +8,7 @@ export const userInfoStyle: CSSProperties = {
 }
 
 export const liStyle: CSSProperties = {
+  listStyleType: "none",
   color: "#555",
 }
 

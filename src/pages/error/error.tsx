@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { textStyle } from './style';
+import { textStyle } from './error.style';
 
 const Error: FC = () => {
   return (

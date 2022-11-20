@@ -7,18 +7,20 @@ import { Layout } from './components/index';
 
 function App() {
   return (
-    <ChakraProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="*" element={<Error />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </ChakraProvider>
+    <div className='container'>
+      <ChakraProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path='about' element={<About />} />
+              <Route path='contact' element={<Contact />} />
+              <Route path='*' element={<Error />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </ChakraProvider>
+    </div>
   )
 }
 
