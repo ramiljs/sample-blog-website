@@ -1,8 +1,8 @@
-import { FC } from 'react';
-import { AboutContainerStyle } from './about.style';
-import { Box, Text } from '@chakra-ui/react';
+import { FC } from 'react'
+import { AboutContainerStyle } from './about.style'
+import { Box , Text } from '@chakra-ui/react'
 
-const About: FC = () => {
+export const About: FC = () => {
   return (
     <div style={AboutContainerStyle}>
       <Box>
@@ -22,5 +22,3 @@ const About: FC = () => {
     </div>
   )
 }
-
-export default About

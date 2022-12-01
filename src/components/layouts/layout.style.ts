@@ -1,4 +1,4 @@
-import { CSSProperties } from 'react';
+import { CSSProperties } from 'react'
 
 export const layoutContainerStyle: CSSProperties = {
   marginTop: "30px"

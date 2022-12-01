@@ -1,8 +1,8 @@
-import { FC } from 'react';
-import { ContactContainerStyle } from './contact.style';
-import { useToast, Stack, Input, Textarea, Button } from '@chakra-ui/react';
+import { FC } from 'react'
+import { ContactContainerStyle } from './contact.style'
+import { useToast , Stack , Input , Textarea , Button } from '@chakra-ui/react'
 
-const Contact: FC = () => {
+export const Contact: FC = () => {
   const toast = useToast();
 
   const onClickSubmitButton = () => {
@@ -45,5 +45,3 @@ const Contact: FC = () => {
     </div>
   )
 }
-
-export default Contact;

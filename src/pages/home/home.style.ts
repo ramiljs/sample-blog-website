@@ -1,4 +1,4 @@
-import { CSSProperties } from 'react';
+import { CSSProperties } from 'react'
 
 export const userInfoStyle: CSSProperties = {
   display: "flex",
@@ -14,6 +14,5 @@ export const liStyle: CSSProperties = {
 
 export const networksLinkStyle: CSSProperties = {
   display: "flex",
-  justifyContent: "center",
-  columnGap: "100px"
+  justifyContent: "space-evenly",
 }

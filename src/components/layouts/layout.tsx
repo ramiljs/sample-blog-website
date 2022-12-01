@@ -1,42 +1,46 @@
-import { FC } from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { FC } from 'react'
+import './layout.css'
+import { Outlet , Link } from 'react-router-dom'
 import {
-  layoutContainerStyle,
-  ulStyle,
-  liStyle,
-  wrapStyle,
-  themeButtonStyle,
+  layoutContainerStyle ,
+  ulStyle ,
+  liStyle ,
+  wrapStyle ,
+  themeButtonStyle ,
   langButtonStyle
-} from './layout.style';
+} from './layout.style'
 import {
-  Box,
-  FormControl,
-  FormLabel,
-  Switch,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuOptionGroup,
-  MenuItemOption,
-  Button,
+  Box ,
+  FormControl ,
+  FormLabel ,
+  Switch ,
+  Menu ,
+  MenuButton ,
+  MenuList ,
+  MenuOptionGroup ,
+  MenuItemOption ,
+  Button ,
   Tag
-} from '@chakra-ui/react';
+} from '@chakra-ui/react'
 
-const Layout: FC = () => {
+export const Layout: FC = () => {
   return (
     <div style={layoutContainerStyle}>
       <nav>
         <ul style={ulStyle}>
-          <li style={liStyle}>
-            <Link to='/'>Home</Link>
+          <li className='menu-button'>
+            <Link to='/Menu'>Menu</Link>
           </li>
-          <li style={liStyle}>
+          <li className='nav-left' style={liStyle}>
+            <Link to='/Home'>Home</Link>
+          </li>
+          <li className='nav-left' style={liStyle}>
             <Link to='/about'>About</Link>
           </li>
-          <li style={liStyle}>
+          <li className='nav-left' style={liStyle}>
             <Link to='/contact'>Contact</Link>
           </li>
-          <li style={liStyle}>
+          <li className='nav-right' style={liStyle}>
             <ul style={wrapStyle}>
               <Box style={langButtonStyle}>
                 <Menu closeOnSelect={false}>
@@ -73,5 +77,3 @@ const Layout: FC = () => {
     </div>
   )
 }
-
-export default Layout;
