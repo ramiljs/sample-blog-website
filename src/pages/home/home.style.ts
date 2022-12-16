@@ -1,4 +1,5 @@
-import { CSSProperties } from 'react'
+import { CSSProperties } from "react";
+
 
 export const userInfoStyle: CSSProperties = {
   display: "flex",
