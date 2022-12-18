@@ -1,6 +1,6 @@
-import { CSSProperties } from "react";
+import { CSSProperties } from 'react'
 
 export const textStyle: CSSProperties = {
-  color: "red",
-  textAlign: "center"
+    color: 'red',
+    textAlign: 'center',
 }

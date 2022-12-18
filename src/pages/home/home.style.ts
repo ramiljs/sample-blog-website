@@ -1,19 +1,18 @@
-import { CSSProperties } from "react";
-
+import { CSSProperties } from 'react'
 
 export const userInfoStyle: CSSProperties = {
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "space-around",
-  marginTop: "100px",
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+    marginTop: '100px',
 }
 
 export const liStyle: CSSProperties = {
-  listStyleType: "none",
-  color: "#555",
+    listStyleType: 'none',
+    color: '#555',
 }
 
 export const networksLinkStyle: CSSProperties = {
-  display: "flex",
-  justifyContent: "space-evenly",
+    display: 'flex',
+    justifyContent: 'space-evenly',
 }

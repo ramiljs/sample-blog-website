@@ -1,21 +1,21 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
 }
 
 a {
-  text-decoration: none;
-  display: inline-block;
+    text-decoration: none;
+    display: inline-block;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .container {
-  width: 100%;
-  max-width: 1300px;
-  margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
 }
