@@ -1,9 +1,9 @@
-import React from 'react'
-import './styles/global.css'
-import { ChakraProvider } from '@chakra-ui/react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Home, About, Contact, Error } from './pages/index'
-import { Layout } from './components/index'
+import React from 'react';
+import './styles/global.css';
+import { ChakraProvider } from '@chakra-ui/react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Home, About, Contact, Error } from './pages/index';
+import { Layout } from './components/index';
 
 function App() {
     return (
@@ -21,7 +21,7 @@ function App() {
                 </BrowserRouter>
             </ChakraProvider>
         </div>
-    )
+    );
 }
 
-export default App
+export default App;

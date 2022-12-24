@@ -1,9 +1,9 @@
-import { FC } from 'react'
-import { ContactContainerStyle } from './contact.style'
-import { useToast, Stack, Input, Textarea, Button } from '@chakra-ui/react'
+import { FC } from 'react';
+import { ContactContainerStyle } from './contact.style';
+import { useToast, Stack, Input, Textarea, Button } from '@chakra-ui/react';
 
 export const Contact: FC = () => {
-    const toast = useToast()
+    const toast = useToast();
 
     const onClickSubmitButton = () => {
         toast({
@@ -12,8 +12,8 @@ export const Contact: FC = () => {
             status: 'success',
             duration: 9000,
             isClosable: true,
-        })
-    }
+        });
+    };
 
     return (
         <div style={ContactContainerStyle}>
@@ -35,5 +35,5 @@ export const Contact: FC = () => {
                 </Button>
             </Stack>
         </div>
-    )
-}
+    );
+};

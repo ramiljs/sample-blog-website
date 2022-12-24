@@ -1,6 +1,6 @@
-import { FC } from 'react'
-import './layout.css'
-import { Outlet, Link } from 'react-router-dom'
+import { FC } from 'react';
+import './layout.css';
+import { Outlet, Link } from 'react-router-dom';
 import {
     layoutContainerStyle,
     ulStyle,
@@ -8,7 +8,7 @@ import {
     wrapStyle,
     themeButtonStyle,
     langButtonStyle,
-} from './layout.style'
+} from './layout.style';
 import {
     Box,
     FormControl,
@@ -21,7 +21,7 @@ import {
     MenuItemOption,
     Button,
     Tag,
-} from '@chakra-ui/react'
+} from '@chakra-ui/react';
 
 export const Layout: FC = () => {
     return (
@@ -93,5 +93,5 @@ export const Layout: FC = () => {
             </nav>
             <Outlet />
         </div>
-    )
-}
+    );
+};

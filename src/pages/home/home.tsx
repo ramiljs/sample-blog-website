@@ -1,8 +1,8 @@
-import { FC } from 'react'
-import './home.style.css'
-import { liStyle, networksLinkStyle, userInfoStyle } from './home.style'
-import { Link, Text, Divider, Badge, Image } from '@chakra-ui/react'
-import user from '../../assets/iamdev.jpg'
+import { FC } from 'react';
+import './home.style.css';
+import { liStyle, networksLinkStyle, userInfoStyle } from './home.style';
+import { Link, Text, Divider, Badge, Image } from '@chakra-ui/react';
+import user from '../../assets/iamdev.jpg';
 
 export const Home: FC = () => {
     return (
@@ -70,5 +70,5 @@ export const Home: FC = () => {
                 </ul>
             </div>
         </div>
-    )
-}
+    );
+};

@@ -1,6 +1,6 @@
-import { FC } from 'react'
-import { AboutContainerStyle } from './about.style'
-import { Box, Text } from '@chakra-ui/react'
+import { FC } from 'react';
+import { AboutContainerStyle } from './about.style';
+import { Box, Text } from '@chakra-ui/react';
 
 export const About: FC = () => {
     return (
@@ -49,5 +49,5 @@ export const About: FC = () => {
                 </Text>
             </Box>
         </div>
-    )
-}
+    );
+};
