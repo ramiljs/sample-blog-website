@@ -9,6 +9,7 @@ export const ulStyle: CSSProperties = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-evenly',
+    listStyleType: 'none'
 };
 
 export const liStyle: CSSProperties = {
@@ -36,16 +37,16 @@ export const themeButtonStyle: CSSProperties = {
 };
 
 const CardWrapper = styled.div`
-    @media screen and (min-width: 320px) and (max-width: 480px) {
+    @media screen and (min-width: 320px) and (max-width: 479px) {
     }
 
-    @media screen and (min-width: 481px) and (max-width: 768px) {
+    @media screen and (min-width: 480px) and (max-width: 768px) {
     }
 
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
+    @media screen and (min-width: 769px) and (max-width: 1023px) {
     }
 
-    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    @media screen and (min-width: 1024px) and (max-width: 1200px) {
     }
 
     @media screen and (min-width: 1201px) {

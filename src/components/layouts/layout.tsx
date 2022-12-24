@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import './layout.css';
 import { Outlet, Link } from 'react-router-dom';
 import {
     layoutContainerStyle,
@@ -28,9 +27,6 @@ export const Layout: FC = () => {
         <div style={layoutContainerStyle}>
             <nav>
                 <ul style={ulStyle}>
-                    <li className="menu-button">
-                        <Link to="/Menu">Menu</Link>
-                    </li>
                     <li className="nav-left" style={liStyle}>
                         <Link to="/Home">Home</Link>
                     </li>
